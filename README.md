@@ -1,12 +1,34 @@
-# React + Vite
+# 🛒 CreaTuLanding1 - Simulador de E-commerce en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es parte de la **Entrega 1 del curso de React.js en Coderhouse**. Consiste en una simulación inicial de un e-commerce, donde se implementa una **landing page** con los primeros componentes básicos de una tienda online.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ React.js
+- 🖌️ CSS (estilos escritos en `App.css`)
+- 📦 Node.js + NPM (para gestionar el entorno React)
+- 💻 Visual Studio Code
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📄 Descripción del proyecto
+
+La aplicación simula la estructura básica de una tienda online. Está compuesta por los siguientes componentes:
+
+### 🔹 NavBar
+Una barra de navegación que ocupa todo el ancho de la pantalla. Contiene:
+- Un **logo de carrito de compras** (`CartWidget`)
+- Enlaces de navegación: **Inicio**, **Productos**, y **Contacto**
+
+### 🔹 ItemListContainer
+Un contenedor que muestra un **mensaje de bienvenida** utilizando una **prop**. Ejemplo:
+> *"Bienvenido a nuestra tienda online"*
+
+Este componente es el lugar donde más adelante se integrará el catálogo de productos.
+
+---
+
+## 📁 Estructura del proyecto
+
