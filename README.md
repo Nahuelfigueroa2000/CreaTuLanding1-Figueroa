@@ -30,5 +30,6 @@ Este componente es el lugar donde más adelante se integrará el catálogo de pr
 
 ---
 
-## 📁 Estructura del proyecto
+📸 Vista previa
+![image](https://github.com/user-attachments/assets/334f67cc-095f-48f7-9c62-420fbd7ceae0)
 
