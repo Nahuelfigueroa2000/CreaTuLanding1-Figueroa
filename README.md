@@ -30,7 +30,7 @@ Este componente es el lugar donde más adelante se integrará el catálogo de pr
 
 ---
 
-📸 Vista previa
+📸 Vista previa (ENTREGA 1)
 ![image](https://github.com/user-attachments/assets/334f67cc-095f-48f7-9c62-420fbd7ceae0)
 
 
@@ -53,5 +53,8 @@ En esta segunda entrega del proyecto de tienda online, se implementó la **naveg
 - **Listado Dinámico de Productos**: Renderizado con `.map()` de un array de productos con `key` únicos.
 - **Detalle de Producto**: Vista individual con información detallada y contador para agregar unidades (interfaz lista para futuras funciones).
 - **Carga Simulada Asíncrona**: Uso de promesas con retardo para simular llamadas a APIs.
+
+📸 Vista previa (ENTREGA 2)
+![image](https://github.com/user-attachments/assets/c6e8605e-a602-43e5-b429-4fd08367e25a)
 
 
