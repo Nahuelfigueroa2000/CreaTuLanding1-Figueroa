@@ -1,39 +1,116 @@
-/* Estilo general */
-body {
+*{
   margin: 0;
-  font-family: sans-serif;
-  background-color: #f8f8f8;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Navbar */
-nav {
-  width: 100vw; /* Ocupa todo el ancho de la pantalla */
+/* Aseguramos que el html y body ocupen toda la pantalla sin márgenes */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Contenedor raíz que también ocupe toda la pantalla */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contenedor general para toda la app */
+.contenedor-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Barra de navegación ocupando toda la pantalla */
+.barra-navegacion {
+  width: 100%;
+  background-color: #222;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #222;
   color: white;
-  box-sizing: border-box;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
-/* Enlaces de navegación */
-nav a {
+/* Enlaces de la barra */
+.barra-navegacion a {
   color: white;
   margin: 0 1rem;
   text-decoration: none;
+  font-weight: bold;
 }
 
-/* Contenedor principal */
-section {
+.barra-navegacion a:hover {
+  text-decoration: underline;
+}
+
+/* Título centrado y con ancho completo */
+h2 {
   width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Contenedor de lista de productos que ocupa toda la pantalla */
+.lista-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2rem 2rem 2rem;
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Tarjetas individuales */
+.tarjeta-producto {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.tarjeta-producto:hover {
+  transform: scale(1.03);
+}
+
+.tarjeta-producto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Detalle producto */
+.detalle-producto {
   padding: 2rem;
   text-align: center;
-  box-sizing: border-box;
-  font-size: 2rem;
+}
+
+/* Contador producto */
+.contador-producto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contador-producto button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
