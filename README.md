@@ -35,44 +35,23 @@ Este componente es el lugar donde más adelante se integrará el catálogo de pr
 
 
 
-Entrega 2 - Navegación y Catálogo de Productos
-Descripción
-Esta entrega corresponde a la segunda fase del proyecto de la tienda online, donde se implementó la navegación entre vistas utilizando React Router. La aplicación permite navegar entre el catálogo principal de productos, filtrar por categorías y acceder al detalle de cada producto.
+# Entrega 2 - Navegación y Catálogo de Productos
 
-Funcionalidades Implementadas
-Navegación con React Router
-Se configuraron rutas para mostrar el catálogo completo, el catálogo filtrado por categorías, y la vista detallada de cada producto mediante rutas dinámicas.
+## Descripción
 
-Barra de navegación
-Un menú en la parte superior que permite seleccionar las diferentes categorías y navegar al inicio o a otras secciones.
+En esta segunda entrega del proyecto de tienda online, se implementó la **navegación entre diferentes vistas** utilizando **React Router**. La aplicación permite al usuario:
 
-Listado dinámico de productos
-Se utiliza el método map() para renderizar la lista de productos. Cada producto se muestra como una tarjeta con imagen, nombre y precio.
+- Visualizar un catálogo principal con todos los productos.
+- Filtrar productos por categorías desde el menú.
+- Acceder al detalle de cada producto mediante rutas dinámicas.
+- Navegar fácilmente entre las secciones de la tienda.
 
-Detalle de producto
-Al hacer clic en un producto, se navega a una página con la información detallada del mismo, incluyendo un contador para agregar unidades al carrito (funcionalidad pendiente).
+## Funcionalidades Principales
 
-Carga asíncrona simulada
-Los datos se obtienen mediante promesas con un pequeño retraso para simular llamadas a una API.
+- **Rutas Dinámicas**: Uso de React Router para mostrar diferentes vistas y productos mediante URLs parametrizadas.
+- **Barra de Navegación**: Menú superior con enlaces a Inicio, Categorías y otras secciones.
+- **Listado Dinámico de Productos**: Renderizado con `.map()` de un array de productos con `key` únicos.
+- **Detalle de Producto**: Vista individual con información detallada y contador para agregar unidades (interfaz lista para futuras funciones).
+- **Carga Simulada Asíncrona**: Uso de promesas con retardo para simular llamadas a APIs.
 
-Estructura del Proyecto
-Componentes de presentación:
-
-BarraDeNavegacion.jsx
-
-TarjetaProducto.jsx
-
-ContadorProducto.jsx
-
-ListaDeProductos.jsx
-
-DetalleProducto.jsx
-
-Componentes contenedores (manejan estado y lógica):
-
-ContenedorProductos.jsx
-
-ContenedorDetalleProducto.jsx
-
-Configuración de rutas en App.jsx usando React Router.
 
